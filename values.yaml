@@ -1,0 +1,15 @@
+nexusApplicationName: nexus-app
+
+namespace: tooling
+
+nexusimage:
+  name: 416591745024.dkr.ecr.eu-west-2.amazonaws.com/global-tooling/nexus-app
+  tag: "latest"
+
+nexusservice: nexus-app-service
+
+serviceingress:  nexus-ingress-service
+
+nexusappbaseURL : nexus.globalfrontierlink.co.uk
+
+
